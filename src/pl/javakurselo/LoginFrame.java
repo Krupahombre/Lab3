@@ -102,7 +102,7 @@ public class LoginFrame extends JFrame{
 
     private void loginSuccessful() {
         getContentPane().setBackground(LOGIN_SUCCESSFUL);
-        JOptionPane.showMessageDialog(this, "Correct login or password", "Access approved", JOptionPane.INFORMATION_MESSAGE, imageA);
+        JOptionPane.showMessageDialog(this, "Correct login and password", "Access approved", JOptionPane.INFORMATION_MESSAGE, imageA);
         getContentPane().setBackground(DEFAULT_COLOR);
         clearFields();
     }
