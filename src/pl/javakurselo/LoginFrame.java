@@ -11,10 +11,10 @@ public class LoginFrame extends JFrame{
     private final Color LOGIN_FAILURE = Color.RED;
     private final Color LOGIN_SUCCESSFUL = Color.GREEN;
     private final Color DEFAULT_COLOR = Color.WHITE;
-    private ImageIcon imageIcon = new ImageIcon("F:\\JDK\\lab3_\\src\\pl\\javakurselo\\wiit.jpg");
-    private ImageIcon imageA = new ImageIcon("F:\\JDK\\lab3_\\src\\pl\\javakurselo\\approved.jpg");
-    private ImageIcon imageD = new ImageIcon("F:\\JDK\\lab3_\\src\\pl\\javakurselo\\denied.jpg");
-    private ImageIcon graphicIcon = new ImageIcon("F:\\JDK\\lab3_\\src\\pl\\javakurselo\\poziomo_pwr.jpg");
+    private ImageIcon imageIcon = new ImageIcon("src/pl/javakurselo/wiit.jpg");
+    private ImageIcon imageA = new ImageIcon("src/pl/javakurselo/approved.jpg");
+    private ImageIcon imageD = new ImageIcon("src/pl/javakurselo/denied.jpg");
+    private ImageIcon graphicIcon = new ImageIcon("src/pl/javakurselo/poziomo_pwr.jpg");
     private JLabel graphic;
     private JLabel loginLabel;
     private JLabel passwordLabel;
