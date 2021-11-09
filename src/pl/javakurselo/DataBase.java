@@ -11,7 +11,7 @@ public class DataBase {
 
         allUsers.put("admin", "admin");
         allUsers.put("Kacper", "1234");
-        allUsers.put("Figo", "F@got");
+        allUsers.put("Figo", "Fagot");
     }
 
     public Map<String, String> getAllUsers() {
